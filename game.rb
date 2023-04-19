@@ -15,12 +15,12 @@ while true do
 
   if move == "left"
     puts left 
-    turns = turns + 1
+    turns += 1
   elsif move == "right"
     puts right 
-    turns = turns + 1
+    turns += 1
   elsif move == "forward"
     puts forward 
-    turns = turns + 1
+    turns += 1
   end
 end
