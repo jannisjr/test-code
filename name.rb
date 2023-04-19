@@ -1,6 +1,4 @@
 puts " What is your name?"
 name = gets.chomp
 
-if name[0] == "S" || "s"
-  puts "#{name.upcase}!!"
-end
+name[0] == "S" ? ( puts name.upcase ) : ( puts "Hi, #{name}" )
